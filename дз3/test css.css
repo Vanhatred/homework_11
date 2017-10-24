@@ -1,3 +1,10 @@
+@font-face{
+	 font-family: Roboto;
+	  src: url(C:\Users\Administrator\Desktop\дз3\tx\Roboto-Italic.ttf);
+
+
+}
+
 
 *{font-family: ;
 	color: #222222
@@ -9,11 +16,13 @@ h1{font-size: 2rem;
 	font-variant: small-caps;
 	font-weight: 400; 
     text-align: center;
-    text-decoration: underline
+    border-bottom: 2px solid  #aaaaaa;
+
 }
 
 h2{font-size: 1.5rem;
     font-weight: 500;
+    border-bottom: 1px solid  #aaaaaa
 }
 
 h3{font-size: 1.3rem;
@@ -26,32 +35,63 @@ h4{font-size: 1.125rem;
 
 }
 
-body{
-	margin-right: 0;
-	margin-left:  0;
-}
 
 
 
-figure{
+
+figure,.coderzit{
 	text-align: center;
 	width: 250px;
-    padding: 25px;
-
 	margin-left: 40px;
-	margin-right:40px;
+	margin-right: 40px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-
-
 	border: 1px solid ; 
 	border-color: #dddddd;
 	border-radius:3px;
     background:  #eeeeee; 
-    padding: 15px; 
+    padding:15px; 
+
    }
 
 
-[title]{
-	font: color: #457468648;
+.opisanie{
+    font-weight: 500;
+}
+
+.opisanier{
+	font-size: 1rem;
+	font-style: italic;
+}
+
+blockquote{
+	font-style: italic;
+	background: #eeeeee;
+	border-radius:3px;
+	border-bottom: 1px solid #dddddd;
+	padding: 15px
+}
+
+
+img{
+	border-radius:3px;
+	width: 100%;
+
+}
+
+p{
+	text-indent: 40px;
+	text-align: justify; ;
+}
+
+q{
+	quotes: "\00ab" "\00bb";
+	font-style: italic;
+	color: #888888;
+
+} 
+
+a{
+	color: #0088ff;
+	text-decoration: none;
 }
