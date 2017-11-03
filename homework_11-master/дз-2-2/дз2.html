@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+ <html>
+            <head>
+                 <meta charset="utf-8">
+                <title>сайт </title>  
+           
+                    <style type="text/css">
+
+                    table{
+
+                    border-collapse: collapse;/*делает границы красивыми*/
+
+                    text-align: center; /*текст по центру*/
+
+                    }
+
+                    td{
+
+                    border:1px black solid; /*делает границы*/
+
+                    padding:5px; /*внутренние отступы 5px*/
+
+                    }
+
+                    caption{
+
+                    font-size: 20px; /*размер шрифта 20px*/
+
+                    font-weight: bold; /*делает шрифт жирным*/
+
+                    }
+
+                    </style>
+            </head>
+<table>
+	  <caption>Множение</caption>
+    <thead>
+
+        <tr>
+             
+            <td><strong>1</strong></td>
+            <td><strong>2</strong></td>
+            <td><strong>3</strong></td>
+            <td><strong>4</strong></td>
+            <td><strong>5</strong></td>
+            <td><strong>6</strong></td>
+            <td><strong>7</strong></td>
+            <td><strong>8</strong></td>
+            <td><strong>9</strong></td> 
+             <td><strong>БАТЮК</strong></td>
+         </tr>
+    </thead>
+
+    <tbody>
+
+
+          <tr>
+             
+            <td><strong>2</strong></td>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
+            <td>10</td>
+            <td>12</td>
+            <td>14</td>
+            <td>16</td>
+            <td rowspan="8">БАТЮК</td>
+         </tr>
+
+         <tr>
+             
+            <td><strong>3</strong></td>
+            <td>6</td>
+            <td>9</td>
+            <td>12</td>
+            <td>15</td>
+            <td>18</td>
+            <td>21</td>
+            <td>24</td>
+            <td>27</td> 
+             
+         </tr>
+
+         <tr>
+             
+            <td><strong>4</strong></td>
+            <td>8</td>
+            <td>12</td>
+            <td>16</td>
+            <td>20</td>
+            <td>24</td>
+            <td>28</td>
+            <td>32</td>
+            <td>36</td> 
+             
+         </tr>
+
+
+        <tr>
+             
+            <td><strong>5</strong></td>
+            <td>10</td>
+            <td>15</td>
+            <td>20</td>
+            <td>25</td>
+            <td>30</td>
+            <td>35</td>
+            <td>40</td>
+            <td>45</td> 
+            
+         </tr>
+         <tr>
+            <td><strong>6</strong></td>
+            <td>12</td>
+            <td>18</td>
+            <td>24</td>
+            <td>30</td>
+            <td>36</td>
+            <td>42</td>
+            <td>48</td>
+            <td>54</td>
+          
+        </tr>
+         <tr>
+             <td><strong>7</strong></td>
+            <td>14</td>
+            <td>21</td>
+            <td>28</td>
+            <td>35</td>
+            <td>42</td>
+            <td>49</td>
+            <td>56</td>
+            <td>63</td>
+        
+         </tr>
+         <tr>
+             <td><strong>8</strong></td>
+            <td>16</td>
+            <td>24</td>
+            <td>32</td>
+            <td>40</td>
+            <td>48</td>
+            <td>56</td>
+            <td>64</td>
+            <td>72</td>
+            
+         </tr>
+         <tr>
+             <td><strong>9</strong></td>
+            <td>18</td>
+            <td>27</td>
+            <td>36</td>
+            <td>45</td>
+            <td>54</td>
+            <td>63</td>
+            <td>72</td>
+            <td>81</td>
+             </tr>
+         <tr>
+             <td><strong>БАТЮК</strong></td>
+
+              <td colspan="8">БАТЮК</td>
+
+            <td><mark><strong>СУПЕРБАТЮК</strong></mark></td> 
+         </tr>
+    </tbody>
+
+ 
+    
+   </table>
+   <br>
+    <p><strong>Заполните анкету</strong></p>
+
+     <form action="/search.php">
+
+          <p><label>Введите буквы<br>
+            <input type="text" name="Имя"></label> </p>
+
+
+          <p><label>Введите точки<br>
+            <input type="password" name="Пароль"></label></p>
+
+             <p>Какой горит знак световора?<br>
+                   <label><input value="Red" type="radio"  name="Флаг">Красный</label><br>
+                   <label><input value="Yellow" type="radio" name="Флаг">Жёлтый</label><br>
+                   <label><input value="Green" type="radio" name="Флаг">Зелёный</label><br>
+                   <br>
+                   <label><input type="radio" name="Флаг">Я дальтоник, отстань:с</label></p>
+
+          <p>Скинь что-нибудь<br>
+                 <label>Кликай----><input type="file" name="Картинка"></label></p>
+
+          <p>Что еще хочешь?<br>
+                <label><input value="Спам" type="checkbox">Получать кучу спама на почту</label><br>
+                <label><input value="Реклама" type="checkbox">Установить рекламные банеры</label><br>
+                <label><input value="Вирусы" type="checkbox">Занести вирусы</label></p>
+
+
+          <p>Дай знать где тебя искать<br>
+                <label>Почта<input type="email" name="Почта"></label><br>
+                <label>Телефон<input type="tel" name="Телефон"></label></p>
+
+          <p>Куда смотрят глаза этого подозрительного парня?<br>
+                <input type="range" name="Ползунок1"> 
+                <input type="range" name="Ползунок2"><br>
+                ________________________</p>
+
+
+          <label>На сколько тянет эта таблица из 10?<br>
+                <select name="Список" size="2" multiple>
+                <option value="0">0 из 10</option>
+                 <option value="0">5 из 10</option>
+                <option value="10">10 из 10</option>
+                <option value="12">12 из 10 ведьмак от мира таблиц</option>
+                </select></label>
+
+
+           <p>Просто жмякни потому что ты модешь)<br>
+                <input type="button" name="Кнопень"></p>
+
+           <p><input type="submit" name="Отправить"></p>
+
+           <p><input type="reset" name="Удалить"></p>
+
+           <p><label>Поищи ещё что-нибудь<input type="search" name="..."></label></p>
+
+           <p>Может ты уже знаешь что тебе нужно<input type="url" name="Адрес"></p>
+
+           <p>Задонать плз<label><input type="number" name="Цифры" min="100" max="10000" step="100"></label></p>
+
+
+
+    </form>
+
+
+</html>
